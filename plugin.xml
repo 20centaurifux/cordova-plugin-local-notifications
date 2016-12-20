@@ -222,4 +222,12 @@
 
     </platform>
 
+    <!-- browser -->
+    <platform name="browser">
+
+        <js-module src="src/browser/LocalNotificationProxy.js" name="LocalNotification.Proxy" >
+            <runs />
+	</js-module>
+
+    </platform>
 </plugin>
